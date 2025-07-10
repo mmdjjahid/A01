@@ -254,3 +254,61 @@ label{
 margin-left: 50px;
 color: #8987A1;
 }
+
+
+
+
+
+.CHALLENGES{
+    text-align: center;
+}
+
+.Feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.Feedback{
+    padding: 24px;
+    background-color: #FFFFFF;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.feedtitle{
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -2%;
+    margin-bottom: 8px;
+}
+
+.feedSub{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+
+.review{
+    display: flex;
+    gap: 6px;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.reviewN{
+    font-size: 16px;
+    line-height: 140%;
+    
+}
