@@ -43,7 +43,13 @@
     margin: 0;
     padding: 0;
 }
-
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body{
+    background-color: #f5f8ff;
+}
 section{
     margin: 116px 141px;
 
@@ -152,4 +158,60 @@ a{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     font-weight: 400;
+}
+
+
+.InTouch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 71px;
+    margin-bottom: 71px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;;
+
+}
+
+.SectionTitle{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000000;
+}
+
+input, textarea{
+    border-radius: 10px;
+    border: none;
+    /* height: 70px; */
+}
+
+input[type="text"]{
+    padding: 20px 0 20px 30px;
+}
+textarea[type="text"]{
+    padding: 20px 0 20px 30px;
+}
+
+textarea{
+    height: 135px;
+    
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
 }
