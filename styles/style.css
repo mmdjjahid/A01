@@ -7,12 +7,20 @@
     color: #FFFFFF;
     padding: 12px 36px;
     border: none;
+    
 }
 .btn-pri:hover{
     cursor: pointer;
     background-color: #2019f8;
     color: #ffffff;
 
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: auto;
+    color: #252432;
 }
 
 
@@ -36,6 +44,14 @@
     padding: 0;
 }
 
+section{
+    margin: 116px 141px;
+
+}
+a{
+    text-decoration: none;
+}
+
 .header{
     background-image: url(/Assets/Hero-bg.png);
 }
@@ -50,10 +66,6 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
-}
-
-.nav ul li a{
-    text-decoration: none;
 }
 
 .logo{
@@ -81,4 +93,36 @@
     color: #252432;
     text-align: center;
 
+}
+
+
+
+
+
+
+
+
+
+.Action{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+}
+
+.ActionSubtitle{
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0;
+
+}
+
+.ActionImg{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
