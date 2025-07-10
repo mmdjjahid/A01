@@ -43,12 +43,11 @@
     margin: 0;
     padding: 0;
 }
-main{
-    max-width: 1280px;
-    margin: 0 auto;
-}
+
 body{
     background-color: #f5f8ff;
+    max-width: 100%;
+    margin: 0 auto;
 }
 section{
     margin: 116px 141px;
@@ -214,4 +213,44 @@ label{
     font-weight: 500;
     font-size: 16px;
     line-height: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 140px 400px;
+    text-align: center;
+}
+
+.name{
+    color: #4E47FF;
+    font-size: 100px;
+    font-family: 900;
+    margin-bottom: 8px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.footer ul li a{
+margin-left: 50px;
+color: #8987A1;
 }
