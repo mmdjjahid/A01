@@ -274,7 +274,8 @@ color: #8987A1;
 
 .Feedback{
     padding: 24px;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
 }
 .icon{
     width: 20px;
